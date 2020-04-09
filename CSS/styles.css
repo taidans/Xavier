@@ -1,0 +1,158 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-color: #fffefb;
+
+}
+
+
+.header{
+	height: 100vh;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-items {
+	margin: 15px;
+	font: futura;
+	font-size: 12px;
+	color: #3a4a4a;
+}
+
+.hr{
+	opacity: 50%;
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+
+}
+
+.body-content{
+	background-color: #39be8f;
+	height: 69vh;
+	width: 100%;
+	margin-top: 5%;
+	display: flex;
+	justify-content: center;
+	bottom: 0%;
+}
+
+
+.first{
+	justify-content: space-around;
+}
+
+
+
+/*
+.dot1 {
+ width: 33px;
+ height: 33px;
+ border-radius: 50%;
+ border: 1px solid #374747;
+  }
+*/
+#date{
+	font-size: 10px;
+	color: #374747;
+	display: inline-block;
+	width: 40px;
+ 	height: 40px;
+ 	border-radius: 50%;
+    border: 1px solid #374747;
+    text-align: center;
+    line-height: 10px;
+    padding-top: 10px;
+    margin-top: -20px;
+    margin-left: 20px;
+
+}
+
+#latest{
+	display: absolute;
+	font-size: 10px;
+	color: white;
+	margin-top: 50vh;
+}
+
+#hand{
+	display: flex;
+	box-shadow:  5px 2px 10px;
+
+/*
+.dot2{
+ display: absolute;
+ width: 33px;
+
+ height: 33px;
+ border-radius: 50%;
+ border: 1px solid #374747;
+}
+*/
+/*
+#date{
+	font-size: 10px;
+	color: #374747;
+	display: inline-block;
+	width: 40px;
+ 	height: 40px;
+ 	border-radius: 50%;
+    border: 1px solid #374747;
+    text-align: center;
+    line-height: 10px;
+    padding-top: 10px;
+    margin-top: -20px;
+    margin-left: 30px;
+}
+*/
+
+}
+
+#xav{
+	font-size: 150px;
+	color: #374747;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: -80px;
+}
+
+#img{
+	height: 597.4px;
+	width: 597.4px;
+	position: absolute;
+	top: 60px; 
+}
+
+
+.second{
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+}
+
+#text{
+	font-family: futura;
+	font-size: 14px;
+	color: #253636;
+	text-align: right;
+	margin-top: 50vh;
+	right: 30px;
+}
+#view{
+	font-family: futura;
+	font-size: 10px;
+	color: #253636;
+	text-align: right;
+	margin-top: 2vh;
+}
